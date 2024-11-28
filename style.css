@@ -1,0 +1,383 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.alert {
+    background: #fff4e5;
+    border-left: 5px solid #ffa500;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    line-height: 26px;
+}
+
+.alert .icon {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 10px 15px;
+    background: #f9f9f9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-header:hover {
+    background: #f1f1f1;
+}
+
+.accordion-content {
+    padding: 15px;
+    background: #fff;
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.accordion-content ul li {
+    margin-bottom: 10px;
+}
+
+.details-section {
+    margin-top: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.details-section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.details-section li {
+    margin: 5px 0;
+}
+
+.highlight-section {
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.highlight-bar {
+    width: 50px;
+    height: 4px;
+    background-color: #FD5732;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-radius: 2px;
+}
+
+.highlight-section p {
+    margin: 20px 0 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.highlight-text {
+    color: #FD5732;
+    font-weight: bold;
+}
+
+.strategy-section {
+    margin-top: 30px;
+}
+
+.strategy-title {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0; /* Убирает отступ */
+}
+
+
+.strategy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 0; /* Убирает отступ */
+}
+
+.strategy-table th, 
+.strategy-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.strategy-table th {
+    width: 150px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.highlight-row td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.course-note {
+    background-color: #fff4e5;
+    border-left: 5px solid #ffa500;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    line-height: 26px;
+}
+
+.course-note .course-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.course-note em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.example-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.task-section .task-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.task-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.task-section .course-note {
+    margin-top: 20px;
+    background-color: #fff4e5;
+    border-left: 5px solid #ffa500;
+    padding: 15px;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+
+.task-section .course-note p {
+    margin: 0 0 10px;
+}
+
+.task-section .course-note strong {
+    font-weight: bold;
+}
+
+.task-section .course-note em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.task-section .task-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.task-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.course-note {
+    margin-top: 20px;
+    background-color: #fff4e5;
+    border-left: 5px solid #ffa500;
+    padding: 15px;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+
+.course-note p {
+    margin: 0 0 10px;
+}
+
+.course-note strong {
+    font-weight: bold;
+}
+
+.course-note em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.hero-section {
+    background-image: url('https://xn--e1agsbgdeid7b.xn--p1ai/upload/resize_cache/iblock/f82/58yp63nd1u7tcbvmyjhpu83khdrejbsu/1047_503_0/kak_pochistit_naushniki_apple_i_airpods.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Высота секции */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff; /* Белый цвет текста */
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Черный слой с прозрачностью */
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 2rem; /* Размер шрифта заголовка */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Тень для читаемости текста */
+    margin: 0;
+    position: relative;
+    z-index: 2; /* Выше затемненного слоя */
+}
+
+.hero-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Выше затемненного слоя */
+}
+
+.task-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.task-number {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #FD5732;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.time-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px 0 15px;
+}
+
+.time-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.continue-button {
+    display: block;
+    width: 100%; /* Кнопка занимает всю ширину контейнера */
+    margin: 0; /* Убираем все внешние отступы */
+    background-color: #FD5732;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 0; /* Высота кнопки */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.continue-button:hover {
+    background-color: #e14b28;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Увеличение тени при наведении */
+}
